@@ -53,14 +53,14 @@
 ## Desktop 
 
 **1. Download [Artix ISO](https://artixlinux.org/download.php)** (if not familiar with setting up a graphical envirement yourself, installing a prefconfigured Graphic Server ISO like wayland is recommended)
-     1.1 Flash the ISO on your USB Stick
-     1.2 Plug the USB Stick into your Computer and follow trough the installation Process
+1.1 Flash the ISO on your USB Stick
+1.2 Plug the USB Stick into your Computer and follow trough the installation Process
 
 **2. Download Yay, the Version Control System helper** (that thing keep's all of your Software up to date)
-      2.1 Update anything:  `sudo pacman -Syyu`
-      2.2 Install Git: `sudo pacman -S git`
-      2.3 Install Yay:  `pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
-      2.4 Reboot your system
+2.1 Update anything:  `sudo pacman -Syyu`
+2.2 Install Git: `sudo pacman -S git`
+2.3 Install Yay:  `pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si`
+2.4 Reboot your system
 
 **3. Download Utilities with Yay**
 
